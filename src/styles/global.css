@@ -28,3 +28,7 @@ button {
 .rotate {
   transform: rotate(45deg);
 }
+
+.radius {
+  border-radius: 50%;
+}
