@@ -4,7 +4,7 @@ const input = document.querySelector('[name="class-text"]')
 
 form.addEventListener('submit', event => {
   event.preventDefault()
-  box.className = 'box ' + input.value
+  box.style.background = input.value
   input.value = ''
   input.focus()
 })
