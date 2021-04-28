@@ -14,6 +14,22 @@ button {
   padding: 8px;
   border-radius: 4px;
 }
-.active {
+
+.box {
+  width: 200px;
+  height: 200px;
   background: hotpink;
+  transition: all 1s;
+}
+
+.blue {
+  background: skyblue;
+}
+
+.rotate {
+  transform: rotate(45deg);
+}
+
+.radius {
+  border-radius: 50%;
 }

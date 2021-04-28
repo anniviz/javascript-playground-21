@@ -9,16 +9,13 @@
     <script defer type="module" src="./index.js"></script>
   </head>
   <body>
-    <main class="home">home</main>
-    <main class="bookmarks hidden">bookmarks</main>
-    <main class="create hidden">create</main>
-    <main class="profile hidden">profile</main>
-
-    <section class="navigation">
-      <button class="button-home active">home</button>
-      <button class="button-bookmarks">bookmarks</button>
-      <button class="button-create">create</button>
-      <button class="button-profile">profile</button>
-    </section>
+    <div class="box" data-box></div>
+    <form data-form>
+      <label>
+        type the name of the class
+        <input name="class-text" />
+      </label>
+      <button>Set class</button>
+    </form>
   </body>
 </html>
