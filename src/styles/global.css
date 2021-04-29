@@ -8,18 +8,22 @@ body {
   height: 100vh;
 }
 
-button {
-  background: goldenrod;
-  border: none;
-  padding: 8px;
-  border-radius: 4px;
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+label {
+  display: grid;
+  grid-template-columns: 80px auto;
 }
 
 .box {
   width: 200px;
   height: 200px;
   background: lightgray;
-  transition: all 1s;
+  transition: all 0.2s;
 }
 
 .blue {

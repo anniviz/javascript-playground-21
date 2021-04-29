@@ -12,10 +12,21 @@
     <div class="box" data-box></div>
     <form data-form>
       <label>
-        type the color of the box
-        <input name="class-text" placeholder="e.g. red or #ee1144" />
+        Rotate
+        <input type="range" name="rotate-range" min="0" max="180" />
       </label>
-      <button>Set color</button>
+      <label>
+        Size
+        <input type="range" name="size-range" min="50" max="250" />
+      </label>
+      <label>
+        Radius
+        <input type="range" name="radius-range" min="0" max="50" />
+      </label>
+      <label>
+        Color
+        <input type="range" name="color-range" min="0" max="360" />
+      </label>
     </form>
   </body>
 </html>
