@@ -4,36 +4,17 @@
 
 body {
   display: grid;
-  place-items: center;
-  height: 100vh;
-}
-
-form {
-  display: flex;
-  flex-direction: column;
+  grid-template-columns: repeat(auto-fit, 100px);
   gap: 20px;
 }
 
-label {
-  display: grid;
-  grid-template-columns: 80px auto;
-}
-
 .box {
-  width: 200px;
-  height: 200px;
+  width: 100px;
+  height: 100px;
   background: lightgray;
   transition: all 0.2s;
 }
 
-.blue {
-  background: skyblue;
-}
-
-.rotate {
-  transform: rotate(45deg);
-}
-
-.radius {
-  border-radius: 50%;
+.active {
+  background: goldenrod;
 }
